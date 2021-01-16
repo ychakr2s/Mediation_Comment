@@ -153,7 +153,79 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
 /*END SLIDER*/
 /* End Slider */
 
-
 /*Start Footer*/
+.footer {
+    background-color: rgb(25, 30, 34);
+    color: rgb(230 234 237);
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.lastFooter {
+    background-color: rgb(25, 30, 34);
+    color: rgb(230 234 237);
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+
+.footer span {
+    float: left;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.lastFooter a {
+    color: #ffffff;
+}
+
+.lastFooter ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+    float: right
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+    float: right
+}
+
+.lastFooter ul li {
+    display: inline-block;
+    padding: 2px
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 2px
+}
+
+.footer ul li img {
+    height: 26px;
+    width: 26px;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.lastFooter ul li img {
+    height: 26px;
+    width: 26px;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.footer ul li img {
+    border: 1px;
+    border-radius: 4px;
+}
 
 /*End Footer*/

@@ -12,13 +12,11 @@
                                                                                           style="height:26px; width:26px;"
                                                                                           alt=""></a></li>
             <li><a href="https://www.facebook.com/eMOTION.RACING/" target="_blank"><img src="images/facebook.png"
-                                                                                        style="height:26px; width:26px;"
-                                                                                        alt=""></a>
+                                                                                        style="height:26px; width:26px;"></a>
             </li>
             <li><i class="fas fa-address-book"></i></li>
             <li><a href="impressum.html" target="_blank">Impressum |</a></li>
             <li><a href="contact.php" target="_blank">Kontakt</a></li>
-            <!--            <li><p>eMOTION RACING</p></li>-->
         </ul>
     </div>
 </div>
