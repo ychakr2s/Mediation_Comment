@@ -28,6 +28,15 @@
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript">
+    $(function () {
+        'use strict';
+        // HEADER: Adjust Slider Height
+        var windowHeigh = $(window).height();
+        // var upperH = $('.upper-bar').innerHeight();
+        var navH = $('.navbar').innerHeight();
+        $('.mySlider, .carousel-item').height(windowHeigh - (navH));
+    });
+
     function sendEmail() {
         var name = $("#name");
         var email = $("#email");

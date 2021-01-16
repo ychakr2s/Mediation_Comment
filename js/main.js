@@ -5,7 +5,19 @@
 */
 
 'use strict';
+
 $(document).ready(function () {
+    // $(function () {
+    //     'use strict';
+    //     // HEADER: Adjust Slider Height
+    //     var windowHeigh = $(window).height();
+    //     // var upperH = $('.upper-bar').innerHeight();
+    //     var navH = $('.navbar').innerHeight();
+    //     $('.mySlider, .carousel-item').height(windowHeigh - (navH));
+    // });
+
+    // this methode keep the high of the slider adapted with the screen
+    console.log("salam sa");
 
     function isNotEmpty(caller) {
         if (caller.val() == "") {
@@ -52,6 +64,15 @@ $(document).ready(function () {
         $('#comment_name').focus();
     });
 });
+// $(function () {
+//     'use strict';
+//     // HEADER: Adjust Slider Height
+//     var windowHeigh = $(window).height();
+//     //var upperH = $('.upper-bar').innerHeight();
+//     var navH = $('.navbar').innerHeight();
+//     console.log("window " + windowHeigh);
+//     $('.mySlider, .carousel-item').height(windowHeigh - navH);
+// });
 
 $('#foot').css('margin-top',
     $(document).height()

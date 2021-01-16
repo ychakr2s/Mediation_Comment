@@ -2,38 +2,31 @@
     <div class="mySlider">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active li"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=" li"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" class=" li"></li>
-                <!--                <li data-target="#carouselExampleIndicators" data-slide-to="3" class=" li"></li>-->
-                <!--                <li data-target="#carouselExampleIndicators" data-slide-to="4" class=" li"></li>-->
-                <!--                <li data-target="#carouselExampleIndicators" data-slide-to="5" class=" li"></li>-->
-                <!--            <li data-target="#carouselExampleIndicators" data-slide-to="6" class=" li"></li>-->
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="container">
-                <div class="carousel-inner" role="listbox">
-                    <!-- Slide One - Set the background image for this slide in the line below -->
-                    <div class="carousel-item active"
-                         style="background-image: url('images/teamfoto.jpg')">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/teamfoto.png" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Mediation</h1>
+                        <p>Betriebliche Mediation</p>
                     </div>
-                    <div class="carousel-item"
-                         style="background-image: url('images/Annett_Volmer.png')">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/marion_slliderT.png" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Mediation</h1>
+                        <p>Mediation im Alltag</p>
                     </div>
-                    <div class="carousel-item"
-                         style="background-image: url('images/marion_sliderr.png')">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/Annett_VolmerT.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Mediation</h1>
+                        <p>Familie und Lebensgemeinschaft</p>
                     </div>
-                    <!--                <div class="carousel-item"-->
-                    <!--                     style="background-image: url('images/screenshot.png')">-->
-                    <!--                </div>-->
-                    <!--                <div class="carousel-item"-->
-                    <!--                     style="background-image: url('images/peaktech-temperature.jpg')">-->
-                    <!--                </div>-->
-                    <!--                <div class="carousel-item"-->
-                    <!--                     style="background-image: url('images/SonoAir.png')">-->
-                    <!--                </div>-->
-                    <!--                <div class="carousel-item"-->
-                    <!--                     style="background-image: url('images/SONOFLAW.jpg')">-->
-                    <!--                </div>-->
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -47,44 +40,6 @@
         </div>
     </div>
 
-    <!--    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">-->
-    <!--        <ol class="carousel-indicators">-->
-    <!--            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>-->
-    <!--            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>-->
-    <!--            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>-->
-    <!--        </ol>-->
-    <!--        <div class="carousel-inner">-->
-    <!--            <div class="carousel-item active">-->
-    <!--                <img class="d-block w-100" src="images/screenshot.png" alt="First slide">-->
-    <!--                <div class="carousel-caption d-none d-md-block">-->
-    <!--                    <h5>sdsfgrregf</h5>-->
-    <!--                    <p>...</p>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="carousel-item">-->
-    <!--                <img class="d-block w-100" src="images/screenshot.png" alt="Second slide">-->
-    <!--                <div class="carousel-caption d-none d-md-block">-->
-    <!--                    <h5>sdsfgrregf</h5>-->
-    <!--                    <p>...</p>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="carousel-item">-->
-    <!--                <img class="d-block w-100" src="images/screenshot.png" alt="Third slide">-->
-    <!--                <div class="carousel-caption d-none d-md-block">-->
-    <!--                    <h5>sdsfgrregf</h5>-->
-    <!--                    <p>...</p>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">-->
-    <!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-    <!--            <span class="sr-only">Previous</span>-->
-    <!--        </a>-->
-    <!--        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">-->
-    <!--            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-    <!--            <span class="sr-only">Next</span>-->
-    <!--        </a>-->
-    <!--    </div>-->
     <!-- Start Mediation -->
     <section>
         <div class="container">

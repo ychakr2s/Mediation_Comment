@@ -91,50 +91,50 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
     background-color: #6c6969;
 }
 
-/*.mySlider .carousel-item {*/
-/*    height: 75vh;*/
-/*    min-height: 350px;*/
-/*    background: no-repeat center center;*/
-/*    -webkit-background-size: contain;*/
-/*    -moz-background-size: contain;*/
-/*    -o-background-size: contain;*/
-/*    background-size: cover;*/
-/*}*/
+.mySlider .carousel-item {
+    /*height: 75vh;*/
+    /*min-height: 350px;*/
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
-@media only screen and (min-width: 300px) and (max-width: 500px){
-    .mySlider .carousel-item {
-        height: 40vh;
-        min-height: 150px;
-        background: no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-}
-@media only screen and (min-width: 501px) and (max-width: 900px){
-    .mySlider .carousel-item {
-        height: 60vh;
-        min-height: 150px;
-        background: no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-}
-@media only screen and (min-width: 901px){
-    .mySlider .carousel-item {
-        height: 100vh;
-        min-height: 150px;
-        /*width: auto;*/
-        background: no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-}
+/*@media only screen and (min-width: 300px) and (max-width: 500px){*/
+/*    .mySlider .carousel-item {*/
+/*        height: 40vh;*/
+/*        min-height: 150px;*/
+/*        background: no-repeat center center;*/
+/*        -webkit-background-size: cover;*/
+/*        -moz-background-size: cover;*/
+/*        -o-background-size: cover;*/
+/*        background-size: cover;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 501px) and (max-width: 900px){*/
+/*    .mySlider .carousel-item {*/
+/*        height: 60vh;*/
+/*        min-height: 150px;*/
+/*        background: no-repeat center center;*/
+/*        -webkit-background-size: cover;*/
+/*        -moz-background-size: cover;*/
+/*        -o-background-size: cover;*/
+/*        background-size: cover;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 901px){*/
+/*    .mySlider .carousel-item {*/
+/*        height: 100vh;*/
+/*        min-height: 150px;*/
+/*        !*width: auto;*!*/
+/*        background: no-repeat center center;*/
+/*        -webkit-background-size: cover;*/
+/*        -moz-background-size: cover;*/
+/*        -o-background-size: cover;*/
+/*        background-size: cover;*/
+/*    }*/
+/*}*/
 .mySlider #carouselExampleIndicators .li {
     /*background-color: #000000;*/
     border: 2px solid #000000;
