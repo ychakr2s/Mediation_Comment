@@ -1,0 +1,159 @@
+/*Start FrameworkRules*/
+body {
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 360px) {
+    p {
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 362px) and (max-width: 500px) {
+    p {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+    p {
+        font-size: 19px;
+    }
+
+    a {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    p {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
+
+/*End Framework Rulez*/
+
+/* Start HEADER */
+/* Start Navbar */
+nav {
+    padding: 20px 0px 20px 0px;
+    border-top: 9px solid #ce3a3a;
+    border-bottom: 3px solid #ce3a3a;
+}
+
+nav .logo .logo-image {
+    float: left;
+    margin-right: 8px;
+}
+
+nav .logo p {
+    font-weight: 600;
+}
+
+nav .navbar-nav .myMargin {
+    margin-right: 10px;
+}
+
+nav .navbar-nav .dropdown-menu {
+    border: 2px solid #ef8787 !important;
+    background-color: #f3c5c5 !important;
+}
+
+nav .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #eea9a9 !important;
+    color: #EEE;
+}
+
+/* END Navbar */
+/* Start Slider */
+/*START SLIDER*/
+.mySlider {
+    background-color: #6c6969;
+}
+
+/*.mySlider .carousel-item {*/
+/*    height: 75vh;*/
+/*    min-height: 350px;*/
+/*    background: no-repeat center center;*/
+/*    -webkit-background-size: contain;*/
+/*    -moz-background-size: contain;*/
+/*    -o-background-size: contain;*/
+/*    background-size: cover;*/
+/*}*/
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .mySlider .carousel-item {
+        height: 40vh;
+        min-height: 150px;
+        background: no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px){
+    .mySlider .carousel-item {
+        height: 60vh;
+        min-height: 150px;
+        background: no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media only screen and (min-width: 901px){
+    .mySlider .carousel-item {
+        height: 100vh;
+        min-height: 150px;
+        /*width: auto;*/
+        background: no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+.mySlider #carouselExampleIndicators .li {
+    /*background-color: #000000;*/
+    border: 2px solid #000000;
+}
+
+.carousel-control-prev .carousel-control-prev-icon {
+    background-color: #d22727;
+    border-radius: 2px;
+}
+
+.carousel-control-next .carousel-control-next-icon {
+    background-color: #d22727;
+    border-radius: 2px;
+}
+
+/*END SLIDER*/
+/* End Slider */
+
+
+/*Start Footer*/
+
+/*End Footer*/
