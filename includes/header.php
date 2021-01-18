@@ -55,7 +55,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " href="contactTest.php">Kontakt</a>
+                        <a class="nav-link " href="contact.php">Kontakt</a>
                     </li>
                 </ul>
             </div>

@@ -227,9 +227,11 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
 .mediationsschwerpunkt .mediation-text {
     margin: 50px 0px 50px 0px;
 }
+
 .mediationsschwerpunkt .col-xs-12 {
-	padding-bottom:20px
+    padding-bottom: 20px
 }
+
 .mediationsschwerpunkt .medschwerpunkte {
     /*list-style: square outside initial;*/
     list-style-image: url(bullet.png);
@@ -264,6 +266,17 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
 
 }
 
+.contactUs .contactpage .contactText {
+    font-family: initial;
+    font-weight: 300;
+    font-style: normal;
+    color: #464040;
+}
+
+.contactImpressum {
+    margin-top: 40px;
+}
+
 .contactUs .contactHeader {
     display: block;
     font-family: Ubuntu-Bold;
@@ -272,8 +285,17 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
     line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 40px
+    padding-top: 50px;
+    padding-bottom: 30px
 }
+
+.contact-data {
+    font-weight: 400;
+    font-family: initial;
+    line-height: revert;
+    color: #562d2f;
+}
+
 .sent-notification {
     padding: 20px 0px 20px 0px;
     line-height: 2;
@@ -286,6 +308,17 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
     padding: 0 35px;
 }
 
+.contactUs .contact-adress {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: initial;
+    font-weight: 400;
+    color: #50272b;
+    margin-top: 43px;
+}
+.contactUs .contactCadr {
+    /*padding-top: 0px;*/
+}
 .contactUs .contactCadr .input100 {
     position: relative;
     display: block;
@@ -331,16 +364,52 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
 
 /* Start Ueber Uns*/
 .uberUns .card {
-	padding: 5px 0 30px 0px;
+    padding: 5px 0 30px 0px;
 }
-.unsPersonal {
-	padding: 40px 0px 0px 40px;
-}
-.uberUnsCard {
-padding-bottom: 23px	
-}
-/* End Ueber Uns*/
 
+.unsPersonal {
+    padding: 40px 0px 0px 40px;
+}
+
+.uberUnsCard {
+    padding-bottom: 23px
+}
+
+/* End Ueber Uns*/
+/* Start Impressum */
+.impressum-seite {
+    margin-bottom: 25px;
+}
+
+.impressum-seite h1 {
+    margin-top: 39px;
+    margin-bottom: 16px;
+    font-family: initial;
+    color: #c51818;
+
+
+}
+
+.impresum-alph {
+    font-family: initial;
+    font-weight: 600;
+    font-size: 17px;
+    color: #443434;
+}
+
+.impressum-seite h4 {
+    font-family: initial;
+    color: #da4b4b;
+    text-decoration: underline;
+}
+
+.impressum-num {
+    font-weight: 500;
+    color: #c10416;
+    font-family: revert;
+}
+
+/* End Impressum */
 /*Start Footer*/
 .footer {
     background-color: rgb(25, 30, 34);
