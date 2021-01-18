@@ -41,14 +41,21 @@
     </div>
 
     <!-- Start Mediation -->
-    <section>
+    <section class="mediation">
+        <h1 class="text-uppercase text-center medTitle"> Was ist Mediation</h1>
         <div class="container">
-            <h1 class="text-uppercase"> Was ist Mediation</h1>
-            <p class="text-centerr">Wir sind ausgebildete Mediatorinnen und haben uns im Mediationsbüro Bonn
-                zusammengeschlossen. Bei Konflikten oder Klärungsbedarf in beruflichen oder privaten Bereichen bieten
-                wir
-                Ihnen professionell konstruktive Lösungsverfahren an.
-            </p>
+            <!--            <div class="med-intr text-center">-->
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                    <p class="med-intr text-center">Wir sind ausgebildete Mediatorinnen und haben uns im
+                        Mediationsbüro Bonn zusammengeschlossen. Bei Konflikten oder Klärungsbedarf in beruflichen oder
+                        privaten Bereichen bieten wir Ihnen professionell konstruktive Lösungsverfahren an.
+                    </p>
+                </div>
+                <div class="col-2"></div>
+            </div>
+
             <div class="row mediation-text">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
                     <h3 class="mediation-head">Der Konflikt hat uns fest im Griff </h3>
@@ -89,13 +96,13 @@
     <!-- End Mediation -->
 
     <!-- Start Mediationsschwerpunkt -->
-    <section>
+    <section class ="mediationsschwerpunkt mediation">
         <div class="container">
-            <h1 class="text-uppercase"> UNSERE MEDIATIONSSCHWERPUNKTE</h1>
+            <h1 class="text-uppercase medschwerTittle"> UNSERE MEDIATIONSSCHWERPUNKTE</h1>
             <div class="row mediation-text">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
-                    <h3 class="mediation-head">Mediation Familie/Lebensgemeinschaft </h3>
-                    <ul class="mediationsschwerpunkte">
+                    <h3 class="mediation-head ">Mediation Familie/ Lebensgemeinschaft </h3>
+                    <ul class="medschwerpunkte">
                         <li>Trennung/Scheidung</li>
                         <li>Streitigkeiten über/wegen der Kinder</li>
                         <li>Unterhalt</li>
@@ -108,28 +115,22 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
                     <h3 class="mediation-head">Betriebliche Mediation </h3>
-                    <ul class="mediationsschwerpunkte">
-                        <li>Trennung/Scheidung</li>
-                        <li>Streitigkeiten über/wegen der Kinder</li>
-                        <li>Unterhalt</li>
-                        <li>Zugewinn</li>
-                        <li>Hausrat</li>
-                        <li>Ehewohnung</li>
-                        <li>Versorgungsausgleich</li>
-                        <li>u.a</li>
+                    <ul class="medschwerpunkte">
+                        <li>Konflikte mit Vorgesetzten/Kollegen</li>
+                        <li>Konflikte im Team</li>
+                        <li>Konflikte mit Kunden</li>
+                        <li>Konflikte mit Zulieferern</li>
+                        <li>u.a.</li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
                     <h3 class="mediation-head">Mediation im Alltag </h3>
-                    <ul class="mediationsschwerpunkte">
-                        <li>Trennung/Scheidung</li>
-                        <li>Streitigkeiten über/wegen der Kinder</li>
-                        <li>Unterhalt</li>
-                        <li>Zugewinn</li>
-                        <li>Hausrat</li>
-                        <li>Ehewohnung</li>
-                        <li>Versorgungsausgleich</li>
-                        <li>u.a</li>
+                    <ul class="medschwerpunkte">
+                        <li>Wohn- oder Lebensgemeinschaften</li>
+                        <li>Vereine</li>
+                        <li>Kirche</li>
+                        <li>Schule</li>
+                        <li>u.a.</li>
                     </ul>
                 </div>
             </div>
@@ -137,12 +138,19 @@
     </section>
     <!-- End Mediationsschwerpunkt -->
     <!-- Start Ueber Uns -->
-    <section>
+    <section class ="uberUns mediationsschwerpunkt">
         <div class="container">
-            <h3 class="text-uppercase"> Über uns</h3>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="card"></div>
+            <h3 class="text-uppercase medschwerTittle"> Über uns</h3>
+            <div class="row unsPersonal">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="images/marion.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Marion Klein</h5>
+                            <p class="card-text">geb. 1962 – 3 Kinder</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                     <ul>
                         <li>seit 2015 zertifizierte Mediatorin ( Familien- und betriebliche Mediation )</li>
                         <li>seit 2010 Verfahrensbeistand und Ergänzungspflegerin</li>
@@ -153,8 +161,15 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="card"></div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="images/marion.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Marion Klein</h5>
+                            <p class="card-text">geb. 1962 – 3 Kinder</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                     <ul>
                         <li>seit 2015 zertifizierte Mediatorin ( Familien- und betriebliche Mediation )</li>
                         <li>seit 2009 „Trainerin“ Familie im Mittelpunkt</li>

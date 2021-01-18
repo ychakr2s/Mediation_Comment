@@ -101,6 +101,25 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
     background-size: cover;
 }
 
+.mySlider .carousel-caption h1 {
+    /*background-color: #0b2e13 !important;*/
+    font-weight: 700 !important;
+    line-height: 2 !important;
+    font-stretch: condensed !important;
+    font-family: -webkit-pictograph !important;
+    color: #decaca;
+}
+
+.mySlider .carousel-caption p {
+    /*background-color: #0b2e13 !important;*/
+    font-weight: 400 !important;
+    line-height: 2 !important;
+    font-size: 22px;
+    font-stretch: condensed;
+    font-style: oblique;
+    color: #decaca;
+}
+
 /*@media only screen and (min-width: 300px) and (max-width: 500px){*/
 /*    .mySlider .carousel-item {*/
 /*        height: 40vh;*/
@@ -152,6 +171,88 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
 
 /*END SLIDER*/
 /* End Slider */
+/* Start Mediation */
+.mediation {
+    margin-bottom: 30px;
+}
+
+.mediation .medTitle {
+    padding: 20px;
+    background-color: #e6a2a2;
+    color: #eee;
+    text-shadow: #CCC 1px 0 15px;
+    box-shadow: 0px 5px 10px #dc747e;
+    border-radius: 5px;
+}
+
+.mediation .med-intr {
+    padding: 20px;
+    font-size: 24px;
+    font-family: initial;
+    margin: 25px 0px 50px 0px;
+}
+
+.mediation .mediation-text .mediation-head {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-stretch: revert;
+    font-family: initial;
+    color: #65393d;
+    text-shadow: 0 0 black;
+}
+
+.mediation .mediation-text .mediation-paragraph {
+    font-size: 19px;
+    font-family: initial;
+    font-feature-settings: inherit;
+    font-style: initial;
+    font-optical-sizing: initial;
+    color: #271414;
+}
+
+/* End Mediation */
+
+/* Start Mediationsschwerpunkt */
+
+/* End Mediationsschwerpunkt */
+.mediationsschwerpunkt .medschwerTittle {
+    padding: 20px;
+    background-color: #e6a2a2;
+    color: #eee;
+    text-shadow: #CCC 1px 0 15px;
+    box-shadow: 0px 5px 10px #dc747e;
+    border-radius: 5px;
+}
+
+.mediationsschwerpunkt .mediation-text {
+    margin: 50px 0px 50px 0px;
+}
+
+.mediationsschwerpunkt .medschwerpunkte {
+    /*list-style: square outside initial;*/
+    list-style-image: url(bullet.png);
+    /*list-style: image(youtube.png);*/
+}
+
+.mediationsschwerpunkt .medschwerpunkte li {
+    font-size: 18px;
+    color: #3e181c;
+    font-family: initial;
+    line-height: 2;
+    font-style: initial;
+    font-weight: 500;
+}
+
+/* Start Ueber Uns */
+.mediationsschwerpunkt .card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    width: 18rem;
+    border: 0px;
+}
+/* End Ueber Uns */
+
 
 /*Start Footer*/
 .footer {

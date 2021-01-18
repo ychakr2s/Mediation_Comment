@@ -34,10 +34,11 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active myMargin">
-                        <a class="nav-link" href="#">Mediation <span class="sr-only">( current )</span></a>
+                        <a class="nav-link text-uppercase" href="#">Mediation <span
+                                    class="sr-only">( current )</span></a>
                     </li>
                     <li class="nav-item dropdown myMargin">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Schwerpunkte
                         </a>
@@ -45,12 +46,12 @@
                             <a class="dropdown-item" href="#">Betriebliche Mediation</a>
                             <a class="dropdown-item" href="#">Mediation</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">im Alltag</a>
-                            <a class="dropdown-item" href="#">Familie/Lebensgemeinschaft</a>
+                            <a class="dropdown-item" href="#"> &nbsp;  &nbsp; im Alltag</a>
+                            <a class="dropdown-item" href="#"> &nbsp;  &nbsp; Familie/Lebensgemeinschaft</a>
                         </div>
                     </li>
                     <li class="nav-item myMargin">
-                        <a class="nav-link" href="#">Über Uns</a>
+                        <a class="nav-link text-uppercase" href="#">Über Uns</a>
                     </li>
 
                     <li class="nav-item">
