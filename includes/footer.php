@@ -54,7 +54,7 @@
                 },
                 success: function (response) {
                     $('#myForm')[0].reset();
-                    $('.sent-notification').text("Message Sent Successfully.");
+                    $('.sent-notification').text("Ihre Nachricht wurde erfolgreich verschickt");
                 }
             });
         }

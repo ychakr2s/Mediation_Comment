@@ -46,8 +46,8 @@
                             <a class="dropdown-item" href="#">Betriebliche Mediation</a>
                             <a class="dropdown-item" href="#">Mediation</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"> &nbsp;  &nbsp; im Alltag</a>
-                            <a class="dropdown-item" href="#"> &nbsp;  &nbsp; Familie/Lebensgemeinschaft</a>
+                            <a class="dropdown-item" href="#"> &nbsp; &nbsp; im Alltag</a>
+                            <a class="dropdown-item" href="#"> &nbsp; &nbsp; Familie/Lebensgemeinschaft</a>
                         </div>
                     </li>
                     <li class="nav-item myMargin">
@@ -55,7 +55,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " href="contact.php">Kontakt</a>
+                        <a class="nav-link " href="contactTest.php">Kontakt</a>
                     </li>
                 </ul>
             </div>
