@@ -1,7 +1,6 @@
 <div class="footer">
     <div class="container">
-            <span> eMOTION RACING &copy;
-                2020</span>
+            <span> &copy; Mediationsbüro Klein/Volmer 2015 </span>
         <ul>
             <li><a href="https://www.youtube.com/FormulaStudentTV" target="_blank"><img src="images/youtube.png"></a>
             </li>
@@ -15,7 +14,7 @@
                                                                                         style="height:26px; width:26px;"></a>
             </li>
             <li><i class="fas fa-address-book"></i></li>
-            <li><a href="impressum.html" target="_blank">Impressum |</a></li>
+            <li><a href="impressum.php" target="_blank">Impressum |</a></li>
             <li><a href="contact.php" target="_blank">Kontakt</a></li>
         </ul>
     </div>

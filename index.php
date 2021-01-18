@@ -69,7 +69,7 @@
                         eine
                         weitere Zusammenarbeit und ein Zusammenleben ermöglichen würde.</p>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
                     <h3 class="mediation-head">Wieder ins Gespräch kommen </h3>
                     <p class="mediation-paragraph">In solchen Fällen ist eine Unterstützung von außen sinnvoll. Dies
                         kann
@@ -79,7 +79,7 @@
                         Deutschland
                         akzeptierte Form der Konfliktlösung.</p>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
                     <h3 class="mediation-head">Raus aus dem Konflikt </h3>
                     <p class="mediation-paragraph">Als geschulte Mediatorinnen bieten wir ein konstruktives
                         Konfliktlösungsverfahren an, mit dem die Konfliktparteien die Kontrolle über das Geschehen
@@ -98,10 +98,10 @@
     <!-- Start Mediationsschwerpunkt -->
     <section class ="mediationsschwerpunkt mediation">
         <div class="container">
-            <h1 class="text-uppercase medschwerTittle"> UNSERE MEDIATIONSSCHWERPUNKTE</h1>
+            <h3 class="text-uppercase medschwerTittle"> UNSERE MEDIATIONSSCHWERPUNKTE</h3>
             <div class="row mediation-text">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
-                    <h3 class="mediation-head ">Mediation Familie/ Lebensgemeinschaft </h3>
+                    <h4 class="mediation-head ">Mediation Familie/ Lebensgemeinschaft </h4>
                     <ul class="medschwerpunkte">
                         <li>Trennung/Scheidung</li>
                         <li>Streitigkeiten über/wegen der Kinder</li>
@@ -113,8 +113,8 @@
                         <li>u.a</li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
-                    <h3 class="mediation-head">Betriebliche Mediation </h3>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                    <h4 class="mediation-head">Betriebliche Mediation </h4>
                     <ul class="medschwerpunkte">
                         <li>Konflikte mit Vorgesetzten/Kollegen</li>
                         <li>Konflikte im Team</li>
@@ -123,8 +123,8 @@
                         <li>u.a.</li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
-                    <h3 class="mediation-head">Mediation im Alltag </h3>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                    <h4 class="mediation-head">Mediation im Alltag </h4>
                     <ul class="medschwerpunkte">
                         <li>Wohn- oder Lebensgemeinschaften</li>
                         <li>Vereine</li>
@@ -142,16 +142,16 @@
         <div class="container">
             <h3 class="text-uppercase medschwerTittle"> Über uns</h3>
             <div class="row unsPersonal">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 uberUnsCard">
                     <div class="card text-center" style="width: 18rem;">
                         <img class="card-img-top" src="images/marion.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Marion Klein</h5>
                             <p class="card-text">geb. 1962 – 3 Kinder</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
-                    <ul>
+                    <ul class ="medschwerpunkte">
                         <li>seit 2015 zertifizierte Mediatorin ( Familien- und betriebliche Mediation )</li>
                         <li>seit 2010 Verfahrensbeistand und Ergänzungspflegerin</li>
                         <li>seit 1999 selbstständige Rechtsanwältin – Fachanwaltsausbildung Familienrecht</li>
@@ -161,16 +161,16 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 uberUnsCard">
                     <div class="card text-center" style="width: 18rem;">
-                        <img class="card-img-top" src="images/marion.png" alt="Card image cap">
+                        <img class="card-img-top" src="images/annett.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Marion Klein</h5>
+                            <h5 class="card-title">Annett Volmer </h5>
                             <p class="card-text">geb. 1962 – 3 Kinder</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://mediation-foerdern.de/Eintr%C3%A4ge/annett-volmer/" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
-                    <ul>
+                    <ul class ="medschwerpunkte">
                         <li>seit 2015 zertifizierte Mediatorin ( Familien- und betriebliche Mediation )</li>
                         <li>seit 2009 „Trainerin“ Familie im Mittelpunkt</li>
                         <li>seit 2008 Diplom-Sozialpädagogin</li>
