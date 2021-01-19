@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active myMargin">
-                        <a class="nav-link text-uppercase" href="#">Mediation <span
+                        <a class="nav-link text-uppercase medi" href="index.php#med">Mediation <span
                                     class="sr-only">( current )</span></a>
                     </li>
                     <li class="nav-item dropdown myMargin">
@@ -43,19 +43,18 @@
                             Schwerpunkte
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Betriebliche Mediation</a>
-                            <a class="dropdown-item" href="#">Mediation</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"> &nbsp; &nbsp; im Alltag</a>
-                            <a class="dropdown-item" href="#"> &nbsp; &nbsp; Familie/Lebensgemeinschaft</a>
+                            <a class="dropdown-item medBetrMed" href="index.php#medBetr">Betriebliche Mediation</a>
+                            <a class="dropdown-item medAlltag" href="index.php#medAll"> Mediation im Alltag</a>
+                            <a class="dropdown-item medFam" href="index.php#medFamLeb">Mediation
+                                Familie/Lebensgemeinschaft</a>
                         </div>
                     </li>
                     <li class="nav-item myMargin">
-                        <a class="nav-link text-uppercase" href="#">Über Uns</a>
+                        <a class="nav-link text-uppercase ubUn" href="index.php#ubUns">Über Uns</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " href="contact.php">Kontakt</a>
+                        <a class="nav-link" href="contact.php">Kontakt</a>
                     </li>
                 </ul>
             </div>

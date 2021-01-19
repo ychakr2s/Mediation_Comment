@@ -1,6 +1,6 @@
-<div class="footer">
+<div id="foot" class="footer">
     <div class="container">
-            <span> &copy; Mediationsbüro Klein/Volmer 2015 </span>
+        <span> &copy; Mediationsbüro Klein/Volmer 2015 </span>
         <ul>
             <li><a href="https://www.youtube.com/FormulaStudentTV" target="_blank"><img src="images/youtube.png"></a>
             </li>
@@ -33,7 +33,51 @@
         var navH = $('.navbar').innerHeight();
         $('.mySlider, .carousel-item').height(windowHeigh - (navH));
     });
+    $('.medi').click(function () {
 
+        $('html, body').animate({
+
+            scrollTop: $('#med').offset().top
+
+        },1500);
+
+    });
+    $('.medBetrMed').click(function () {
+
+        $('html, body').animate({
+
+            scrollTop: $('#medBetr').offset().top
+
+        },1500);
+
+    });
+    $('.medAlltag').click(function () {
+
+        $('html, body').animate({
+
+            scrollTop: $('#medAll').offset().top
+
+        },1500);
+
+    });
+    $('.medFam').click(function () {
+
+        $('html, body').animate({
+
+            scrollTop: $('#medFamLeb').offset().top
+
+        },1500);
+
+    });
+    $('.ubUn').click(function () {
+
+        $('html, body').animate({
+
+            scrollTop: $('#ubUns').offset().top
+
+        },1500);
+
+    });
     function sendEmail() {
         var name = $("#name");
         var email = $("#email");

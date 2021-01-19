@@ -257,6 +257,8 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
 }
 
 /* End Ueber Uns */
+
+/* Start Contact */
 .contactUs {
     background: #f2f2f2;
 }
@@ -266,11 +268,12 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
 
 }
 
-.contactUs .contactpage .contactText {
+.contactText {
     font-family: initial;
     font-weight: 300;
     font-style: normal;
-    color: #464040;
+    color: #2f0b0b;
+    margin: 35px 0px 20px 0px;
 }
 
 .contactImpressum {
@@ -316,9 +319,11 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
     color: #50272b;
     margin-top: 43px;
 }
+
 .contactUs .contactCadr {
     /*padding-top: 0px;*/
 }
+
 .contactUs .contactCadr .input100 {
     position: relative;
     display: block;
@@ -358,9 +363,17 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
     text-transform: uppercase;
 }
 
-/* Start Contact */
-
 /* End Contact */
+
+/*Start Comment*/
+.panel {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px 0px 10px 0px;
+}
+
+/*End Comment*/
 
 /* Start Ueber Uns*/
 .uberUns .card {
@@ -376,6 +389,7 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
 }
 
 /* End Ueber Uns*/
+
 /* Start Impressum */
 .impressum-seite {
     margin-bottom: 25px;
@@ -386,8 +400,6 @@ nav .navbar-nav .dropdown-menu .dropdown-item:hover {
     margin-bottom: 16px;
     font-family: initial;
     color: #c51818;
-
-
 }
 
 .impresum-alph {

@@ -4,13 +4,13 @@
 
     <div class="container">
         <h2 class="contactHeader">Kontaktieren Sie Uns</h2>
+        <p class="contactText text-center">Was können wir für Sie tun? <br>Überlegen Sie, ob Ihr Fall für
+            die Mediation geeignet ist? <br>
+            Gerne vereinbaren wir einen unverbindlichen Beratungstermin.</p>
         <div class="row contactpage">
             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                 <div class="contact-adress">
 
-                    <p class="contactText">Was können wir für Sie tun? <br>Überlegen Sie, ob Ihr Fall für
-                        die Mediation geeignet ist? <br>
-                        Gerne vereinbaren wir einen unverbindlichen Beratungstermin.</p>
                     <div class="contactImpressum">
                         <p class="contact-adress">
                             <strong>Mediationsbüro Klein/Volmer</strong><br>

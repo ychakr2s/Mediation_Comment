@@ -41,7 +41,7 @@
     </div>
 
     <!-- Start Mediation -->
-    <section class="mediation">
+    <section id="med" class="mediation">
         <h1 class="text-uppercase text-center medTitle"> Was ist Mediation</h1>
         <div class="container">
             <!--            <div class="med-intr text-center">-->
@@ -96,11 +96,11 @@
     <!-- End Mediation -->
 
     <!-- Start Mediationsschwerpunkt -->
-    <section class ="mediationsschwerpunkt mediation">
+    <section id="medsch" class="mediationsschwerpunkt mediation">
         <div class="container">
             <h3 class="text-uppercase medschwerTittle"> UNSERE MEDIATIONSSCHWERPUNKTE</h3>
             <div class="row mediation-text">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                <div id="medFamLeb" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
                     <h4 class="mediation-head ">Mediation Familie/ Lebensgemeinschaft </h4>
                     <ul class="medschwerpunkte">
                         <li>Trennung/Scheidung</li>
@@ -113,7 +113,7 @@
                         <li>u.a</li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                <div id="medBetr" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
                     <h4 class="mediation-head">Betriebliche Mediation </h4>
                     <ul class="medschwerpunkte">
                         <li>Konflikte mit Vorgesetzten/Kollegen</li>
@@ -123,7 +123,7 @@
                         <li>u.a.</li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                <div id="medAll" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
                     <h4 class="mediation-head">Mediation im Alltag </h4>
                     <ul class="medschwerpunkte">
                         <li>Wohn- oder Lebensgemeinschaften</li>
@@ -138,7 +138,7 @@
     </section>
     <!-- End Mediationsschwerpunkt -->
     <!-- Start Ueber Uns -->
-    <section class ="uberUns mediationsschwerpunkt">
+    <section id="ubUns" class="uberUns mediationsschwerpunkt">
         <div class="container">
             <h3 class="text-uppercase medschwerTittle"> Über uns</h3>
             <div class="row unsPersonal">
@@ -148,10 +148,10 @@
                         <div class="card-body">
                             <h5 class="card-title">Marion Klein</h5>
                             <p class="card-text">geb. 1962 – 3 Kinder</p>
-                            <a href="" class="btn btn-danger">Go somewhere</a>
+                            <a href="" class="btn btn-danger">Sehen</a>
                         </div>
                     </div>
-                    <ul class ="medschwerpunkte">
+                    <ul class="medschwerpunkte">
                         <li>seit 2015 zertifizierte Mediatorin ( Familien- und betriebliche Mediation )</li>
                         <li>seit 2010 Verfahrensbeistand und Ergänzungspflegerin</li>
                         <li>seit 1999 selbstständige Rechtsanwältin – Fachanwaltsausbildung Familienrecht</li>
@@ -167,10 +167,11 @@
                         <div class="card-body">
                             <h5 class="card-title">Annett Volmer </h5>
                             <p class="card-text">geb. 1962 – 3 Kinder</p>
-                            <a href="https://mediation-foerdern.de/Eintr%C3%A4ge/annett-volmer/" class="btn btn-danger">Go somewhere</a>
+                            <a href="https://mediation-foerdern.de/Eintr%C3%A4ge/annett-volmer/" class="btn btn-danger">
+                                Sehen</a>
                         </div>
                     </div>
-                    <ul class ="medschwerpunkte">
+                    <ul class="medschwerpunkte">
                         <li>seit 2015 zertifizierte Mediatorin ( Familien- und betriebliche Mediation )</li>
                         <li>seit 2009 „Trainerin“ Familie im Mittelpunkt</li>
                         <li>seit 2008 Diplom-Sozialpädagogin</li>
@@ -186,7 +187,7 @@
     </section>
     <!-- End Ueber Uns -->
     <!-- Start Kommentare -->
-    <div class="kommentar">
+    <div id="comm" class="kommentar">
         <h2 align="center">Lassen Sie uns ein Kommentar</h2>
         <br/>
         <div class="container">
@@ -196,8 +197,8 @@
                            placeholder="Enter Name"/>
                 </div>
                 <div class="form-group">
-                <textarea name="comment_content" id="comment_content" class="form-control" placeholder="Enter Comment"
-                          rows="5"></textarea>
+                    <textarea name="comment_content" id="comment_content" class="form-control"
+                              placeholder="Enter Comment" rows="5"></textarea>
                 </div>
                 <div class="form-group">
                     <input type="hidden" name="comment_id" id="comment_id" value="0"/>
